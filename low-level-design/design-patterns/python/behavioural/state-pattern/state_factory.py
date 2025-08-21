@@ -39,3 +39,5 @@ class StateFactory:
             from suspended_state import SuspendedState
             cls._instances['suspended'] = SuspendedState()
         return cls._instances['suspended']
+
+

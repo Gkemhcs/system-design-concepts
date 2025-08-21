@@ -32,3 +32,5 @@ class VM:
     def get_current_state(self) -> str:
         """Get the name of the current state"""
         return self.current_state.__class__.__name__
+
+
