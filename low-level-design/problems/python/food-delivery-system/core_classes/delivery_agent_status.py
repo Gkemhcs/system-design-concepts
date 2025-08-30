@@ -1,0 +1,8 @@
+from enum import Enum 
+
+
+class DeliveryAgentStatus(Enum):
+    AVAILABLE="AVAILABLE"
+    ASSIGNED_DELIVERY="ASSIGNED_DELIVERY"
+    ON_DELIVERY="ON_DELIVERY"
+    OFFLINE="OFFLINE"
